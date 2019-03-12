@@ -132,11 +132,19 @@ header {
   h4 {
     color: #938888;
   }
+
+  .flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+  }
+
   .project-image:hover {
     outline: 3px outset #7F875E;
     outline-offset: 1.5px;
   }
 
   .project-link {
-    align-content: center;
+    align-content: flex-end;
   }
