@@ -27,6 +27,7 @@ header {
 }
 
 #down-arrow {
+  color: aliceblue;
   text-shadow: 1px 1.5px #EDEAEA;
 }
 
@@ -35,7 +36,7 @@ header {
 }
 
 #sub-text {
-  color: aliceblue;
+  text-shadow: 1px 1px #EDEAEA;
 }
 
 .fadeIn {
